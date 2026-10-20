@@ -1,31 +1,23 @@
-# Radin Cheraghi — GitHub Pages Website
+# Radin Cheraghi — Complete GitHub Pages Website
 
-Personalized from the official Minimal Light HTML template:
-https://github.com/yaoyao-liu/minimal-light
+This folder contains the COMPLETE website for https://radinch.github.io/.
 
-## Publish
+## Upload
 
-1. Create or open `radinch/radinch.github.io` on GitHub. Add a README when creating the repository so `main` exists. GitHub Free requires the repository to be public for Pages; personal private-repository Pages requires GitHub Pro.
-2. Extract this ZIP. Upload its CONTENTS directly to the repository root, including `index.html` and `assets/`. Do not upload the ZIP itself or put the files in an extra enclosing folder. Commit to `main`.
-3. Open Settings → Pages. Under Build and deployment, choose Deploy from a branch. Select `main` and `/ (root)`, then Save.
-4. Wait for deployment to finish. Your website address is https://radinch.github.io/.
+Upload everything inside this folder to the root of `radinch/radinch.github.io`, preserving the `assets/` subfolders. Upload `index.html`, `cv.pdf`, and the entire `assets/` folder together. Replace matching files. Do not upload the ZIP itself or an extra enclosing folder.
 
-The website uses plain HTML and CSS and requires no compilation. The included `.nojekyll` file disables Jekyll processing.
+Commit to `main`. The existing GitHub Pages setup deploys the new files automatically. Wait for the newest Actions run to succeed, then reload the site with Ctrl + Shift + R.
 
-## Edit
+Your direct CV URL is https://radinch.github.io/cv.pdf. The homepage intentionally contains no CV link or button.
 
-- Website content: `index.html`
-- Custom styling and responsive layout: `assets/css/custom.css`
-- Original Minimal Light stylesheet: `assets/css/minimal-light.css`
-- Portrait: `assets/img/portrait.png`
+## Main files
 
-The CV was used only as a content reference. No CV PDF, CV download button, or CV link is included. Conference publications are listed first, followed by clearly labeled preprints and manuscripts. The site includes research experience, education, selected projects, honors, and teaching.
+- `index.html`: homepage, with horizontal navigation, Education first after the introduction, one publication list, university logos beside research roles, and the updated recommender-paper note.
+- `cv.pdf`: exact PDF supplied by Radin.
+- `assets/css/minimal-light.css`: original Minimal Light stylesheet; required.
+- `assets/css/custom.css`: personal styles and layout; required.
+- `assets/img/portrait.png`: profile portrait; required.
+- `assets/img/favicon.svg`: browser icon.
+- `assets/img/institutions/`: university logos and source information.
 
-## Attribution
-
-Minimal Light by Yaoyao Liu: https://github.com/yaoyao-liu/minimal-light
-CC0 license: see LICENSE.
-
-## Verification
-
-Internal links and local assets are checked. Browser visual verification has not been performed.
+The site is a buildless HTML/CSS adaptation of https://github.com/yaoyao-liu/minimal-light. See LICENSE for the original CC0 license.
